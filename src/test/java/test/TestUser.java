@@ -5,9 +5,7 @@
  */
 package test;
 
-import bean.index;
-import java.util.List;
-import javax.persistence.EntityManager;
+import bean.Index;
 import org.junit.After;
 import org.junit.AfterClass;
 import static org.junit.Assert.*;
@@ -48,7 +46,7 @@ public class TestUser {
     public void test01() {
         System.out.println("Test 01 -> insert user");
         
-        index  i = new index();
+        Index i = new Index();
         i.setName("Test01");
         
         assertEquals(true, i.save());

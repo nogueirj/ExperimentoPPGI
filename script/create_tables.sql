@@ -1,6 +1,7 @@
 ﻿CREATE TABLE users(
     id serial NOT NULL,
     name VARCHAR (200),
+    email varchar(350),
     CONSTRAINT pk_users PRIMARY KEY (id)
 );
 
