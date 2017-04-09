@@ -48,7 +48,7 @@ public class TestUser {
         
         Index i = new Index();
         i.setName("Test01");
-        
+        i.setEmail("julio.nogueira@outlook.com");
         assertEquals(true, i.save());
     }  
 }
